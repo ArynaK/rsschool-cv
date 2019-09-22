@@ -1,0 +1,74 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+    font-family: Phenomena Bold;
+    src: url(fonts/Phenomena-ExtraBold.otf);
+}
+div {
+	box-sizing: border-box;
+}
+header {
+    background: url(../img/fon.jpg) no-repeat center top / cover;
+	background-size: 100%;
+    background-attachment: fixed;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	margin-bottom: -50px;
+}
+.foto {
+	position: relative;
+	margin-top: 200px;
+}
+.heading h1 {
+	font-size: 70px;
+	font-family: Phenomena, bold;
+	color: #fff;
+	position: absolute;
+	margin-top: -220px;
+	padding-left: 120px;
+}
+.heading h2 {
+	font-size: 35px;
+	font-family: Phenomena, bold;
+	color: #fff;
+	position: absolute;
+	margin-top: -135px;
+	padding-left: 120px;
+}
+section {
+	position: relative;
+	background-color: #78c172;
+	width: 1024px;
+	height: 1270px;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+h3 {
+	font-size: 30px;
+	font-family: Phenomena, bold;
+	color: #fff;
+	padding-left: 40px;
+	padding-top: 20px;
+}
+ul {
+	margin-left: 25px;
+}
+li {
+	font-size: 20px;
+	font-family: Phenomena, bold;
+	color: #fff;
+}
+p {
+	font-size: 20px;
+	font-family: Phenomena, bold;
+	color: #fff;
+	padding-left: 40px;
+	padding-right: 150px;
+}
+code {
+	color: #fff;
+}
